@@ -682,7 +682,7 @@ function ResumePageContent() {
 
       const resumeData = buildResumeData();
 
-      const url = resumeId ? `${API_URL}/api/resumes/${resumeId}` : '${API_URL}/api/resumes';
+      const url = resumeId ? `${API_URL}/api/resumes/${resumeId}` : `${API_URL}/api/resumes`;
 
       const response = await fetch(url, {
         method: resumeId ? 'PUT' : 'POST',
