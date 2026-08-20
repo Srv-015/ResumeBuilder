@@ -1660,13 +1660,13 @@ function ResumePageContent() {
                   />
 
                   <Input
-                    label="✉️ Email"
+                    label="Email"
                     value={personal.email}
                     onChange={(value) => updatePersonal('email', value)}
                   />
 
                   <Input
-                    label="📞 Phone"
+                    label="Phone"
                     value={personal.phone}
                     onChange={(value) => updatePersonal('phone', value)}
                   />
@@ -1678,7 +1678,7 @@ function ResumePageContent() {
                   />
 
                   <Input
-                    label="🔗 Website"
+                    label="Website"
                     value={personal.website}
                     onChange={(value) => updatePersonal('website', value)}
                   />
