@@ -97,23 +97,3 @@ resume-builder/
     ├── package.json
     └── tsconfig.json
 
-
-
-    H3hd3ofZcuHgVDXH
-
-
-    nmofT9CbzjZPIJWv
-
-
-    After that, I'd build the remaining features roughly in this order:
-
-Auto Save
-Duplicate Resume
-Rename Resume
-More resume templates
-Profile/photo support if you want it
-Shareable resume link
-Forgot/Reset Password
-Google login
-Final responsive/mobile cleanup
-Deployment for frontend + backend + MongoDB Atlas
