@@ -1,0 +1,119 @@
+resume-builder/
+│
+├── frontend/
+│   │
+│   ├── public/
+│   │
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── page.tsx
+│   │   │   │
+│   │   │   ├── login/
+│   │   │   │   └── page.tsx
+│   │   │   │
+│   │   │   ├── register/
+│   │   │   │   └── page.tsx
+│   │   │   │
+│   │   │   ├── dashboard/
+│   │   │   │   └── page.tsx
+│   │   │   │
+│   │   │   ├── resume/
+│   │   │   │   └── [id]/
+│   │   │   │       └── page.tsx
+│   │   │   │
+│   │   │   └── templates/
+│   │   │       └── page.tsx
+│   │   │
+│   │   ├── components/
+│   │   │   ├── Navbar.tsx
+│   │   │   ├── Sidebar.tsx
+│   │   │   ├── Button.tsx
+│   │   │   ├── Input.tsx
+│   │   │   ├── Modal.tsx
+│   │   │   └── Loading.tsx
+│   │   │
+│   │   ├── components/
+│   │   │   └── resume/
+│   │   │       ├── PersonalInfoForm.tsx
+│   │   │       ├── EducationForm.tsx
+│   │   │       ├── ExperienceForm.tsx
+│   │   │       ├── SkillsForm.tsx
+│   │   │       ├── ProjectsForm.tsx
+│   │   │       └── ResumePreview.tsx
+│   │   │
+│   │   ├── lib/
+│   │   │   ├── api.ts
+│   │   │   └── utils.ts
+│   │   │
+│   │   ├── types/
+│   │   │   └── resume.ts
+│   │   │
+│   │   └── hooks/
+│   │       └── useAuth.ts
+│   │
+│   ├── .env.local
+│   ├── package.json
+│   └── tsconfig.json
+│
+│
+└── backend/
+    │
+    ├── src/
+    │   │
+    │   ├── config/
+    │   │   └── db.ts
+    │   │
+    │   ├── controllers/
+    │   │   ├── auth.controller.ts
+    │   │   └── resume.controller.ts
+    │   │
+    │   ├── middleware/
+    │   │   ├── auth.middleware.ts
+    │   │   └── error.middleware.ts
+    │   │
+    │   ├── models/
+    │   │   ├── User.ts
+    │   │   └── Resume.ts
+    │   │
+    │   ├── routes/
+    │   │   ├── auth.routes.ts
+    │   │   └── resume.routes.ts
+    │   │
+    │   ├── services/
+    │   │   ├── auth.service.ts
+    │   │   └── resume.service.ts
+    │   │
+    │   ├── types/
+    │   │   ├── auth.types.ts
+    │   │   └── resume.types.ts
+    │   │
+    │   ├── utils/
+    │   │   └── jwt.ts
+    │   │
+    │   └── server.ts
+    │
+    ├── .env
+    ├── .gitignore
+    ├── package.json
+    └── tsconfig.json
+
+
+
+    H3hd3ofZcuHgVDXH
+
+
+    nmofT9CbzjZPIJWv
+
+
+    After that, I'd build the remaining features roughly in this order:
+
+Auto Save
+Duplicate Resume
+Rename Resume
+More resume templates
+Profile/photo support if you want it
+Shareable resume link
+Forgot/Reset Password
+Google login
+Final responsive/mobile cleanup
+Deployment for frontend + backend + MongoDB Atlas
